@@ -26,6 +26,7 @@ const mockData = {
 jest.mock("axios");
 
 describe("fetchData", () => {
+  //test for redux store and fetch from api
   it("fetches successfully data from an API and updates store", async () => {
     const initialState = {};
     const mockStore = configureStore();
