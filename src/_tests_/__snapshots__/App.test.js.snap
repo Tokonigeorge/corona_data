@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchData fetches successfully data from an API 1`] = `
+<div
+  className="App min-h-screen w-screen bg-bg"
+>
+  <div
+    className="w-screen h-screen flex items-center justify-center"
+  />
+</div>
+`;

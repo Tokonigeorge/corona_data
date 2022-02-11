@@ -34,7 +34,7 @@ const StateTable = () => {
 };
 
 export const CellText = ({ text, style }) => {
-  return <div className={`sm:w-1/5 text-center ${style}`}>{text}</div>;
+  return <div className={`w-1/5 text-center ${style}`}>{text}</div>;
 };
 
 export default StateTable;
