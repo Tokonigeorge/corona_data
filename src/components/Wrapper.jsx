@@ -1,5 +1,6 @@
 import StatusCard from "./StatusCard";
 import StateTable from "./StateTable";
+import BarChart from "./Chart";
 
 const Wrapper = () => {
   return (
@@ -9,6 +10,7 @@ const Wrapper = () => {
         Covid-19 Update, Nigeria
       </p>
       <StatusCard />
+      <BarChart />
       <StateTable />
     </div>
   );
