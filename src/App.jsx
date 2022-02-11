@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App min-h-screen w-screen">
+    <div className="App min-h-screen w-screen bg-bg">
       {loading && <p>Loading</p>}
       {!loading && error && <p>An error has occured, consider, reloading</p>}
       {data && !loading && <Wrapper />}

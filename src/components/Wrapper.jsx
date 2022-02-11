@@ -1,4 +1,5 @@
 import StatusCard from "./StatusCard";
+import StateTable from "./StateTable";
 
 const Wrapper = () => {
   return (
@@ -8,6 +9,7 @@ const Wrapper = () => {
         Covid-19 Update, Nigeria
       </p>
       <StatusCard />
+      <StateTable />
     </div>
   );
 };
