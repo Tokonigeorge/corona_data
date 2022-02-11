@@ -31,7 +31,7 @@ const StatusCard = () => {
   );
 };
 
-const Cards = ({ color, header, number }) => {
+export const Cards = ({ color, header, number }) => {
   return (
     <div
       className={`${color} rounded-md w-full sm:w-1/3 md:w-1/4 lg:w-1/5 text-white px-4 py-6 ease-in duration-200 cursor-pointer hover:scale-105`}

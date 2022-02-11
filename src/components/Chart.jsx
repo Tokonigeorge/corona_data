@@ -4,6 +4,7 @@ import {
   CategoryScale,
   BarController,
   BarElement,
+  LinearScale,
   Title,
   Tooltip,
   Legend,
@@ -13,6 +14,7 @@ import { Bar } from "react-chartjs-2";
 
 ChartJS.register(
   CategoryScale,
+  LinearScale,
   BarController,
   BarElement,
   Title,
