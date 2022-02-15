@@ -10,9 +10,10 @@ This project uses:
 1. ReactJs with Vite
 2. React Redux
 3. React testing library
-4. TailwindCss
-5. Axios
-6. Redux mock store
+4. Jest
+5. TailwindCss
+6. Axios
+7. Redux mock store
 
 ## Installation and setup
 Clone down this repository,`cd corona_data`.  You will need `node` and `npm` installed globally on your machine.  
