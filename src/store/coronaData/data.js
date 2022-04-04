@@ -8,6 +8,8 @@ export function updateData(data) {
   };
 }
 
+//store default data as an object
+
 const defaultData = {};
 
 function data(state = defaultData, action) {
