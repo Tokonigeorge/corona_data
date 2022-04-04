@@ -29,6 +29,6 @@ To Start Server:
 
 `npm run dev`  
 
-To Visit App:
+To Visit app:
 
 `localhost:3000`
